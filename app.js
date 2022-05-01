@@ -1,26 +1,25 @@
-// strings 
-console.log('Hello, world');
+// function declaration 
+function greet(){
+    console.log('hello there');
+}
 
-let email = 'mario@thenetninja.co.uk';
-console.log(email);
+// function experession
 
-// string concatentation
-let firstName = 'Moe';
-let lastName = 'Almossa';
+const speak = function(){
+    console.log('good day!');
+};
 
-let fullName = firstName + '' + lastName;
-console.log(fullName);
+// greet();
+// greet();
+// greet();
+// greet();
 
-// getting characters 
-console.log(fullName[0]);
 
-// string length 
-console.log(fullName.length);
+speak();
+speak();
+speak();
 
-// string methods
-console.log(fullName.toLocaleUpperCase());
-let result = fullName.toLocaleLowerCase();
-console.log(result, fullName);
-
-let index = email.indexOf("@");
-console.log(index);
+// function declaration
+function greet(){
+    console.log('hello there');
+}
